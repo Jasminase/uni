@@ -4,7 +4,8 @@ import { IoBookSharp } from "react-icons/io5";
 import { MdOutlineAdminPanelSettings } from "react-icons/md";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { Link } from 'react-router-dom';
-import { useNavigate } from 'react-router-dom'; 
+import { useNavigate } from 'react-router-dom';
+import "./card.css"; 
 export default function card(props) {
     const isSignup = props.isSignup || false;
     const navigate = useNavigate();
@@ -14,7 +15,6 @@ export default function card(props) {
         <div className="card-page-body">
             <IoBookSharp className="head-icon"/>
             <h1 className="header">{props.header}</h1>
-            <p className="postheader">{props.postheader}</p>
 
             {isSignup && (
             <>
