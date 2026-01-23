@@ -1,0 +1,89 @@
+.progress-body{
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    width: 100%;
+     
+    height:200px;
+}
+
+.prog-title{
+    display: block; 
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin: 0 0 10px 0; 
+}
+
+.post-title {
+    font-size: 13px;
+    color: #94a3b8;
+    margin-top: 8px;
+    margin-bottom: 0;
+}
+
+.courses{
+    font-size: 13px;
+    color: #94a3b8;
+    margin-top: 20px;
+    margin-bottom: 0; 
+}
+#c{
+    padding-left: 38%;
+}
+
+
+@media (max-width: 768px) {
+    .progress-body {
+        padding: 20px;
+        max-width: 100%;
+    }
+    
+    .prog-title {
+        font-size: 13px;
+    }
+    
+    .post-title,
+    .courses {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .progress-body {
+        padding: 15px;
+        border-radius: 8px;
+    }
+    
+    .prog-title {
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    
+    .post-title,
+    .courses {
+        font-size: 11px;
+        margin-top: 6px;
+    }
+}
+
+
+@media (max-width: 360px) {
+    .progress-body {
+        padding: 12px;
+    }
+    
+    .prog-title {
+        font-size: 11px;
+    }
+    
+    .post-title,
+    .courses {
+        font-size: 10px;
+    }
+}
