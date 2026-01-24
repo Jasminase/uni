@@ -1,11 +1,11 @@
-import StatsCard from "./components/statcard/StatsCard";
+import StatsCard from "../../components/statcard/StatsCard";
 import { MdClass } from "react-icons/md";
 import { PiMedalLight } from "react-icons/pi";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 import "./DashBoard.css"
 import { FaArrowTrendUp } from "react-icons/fa6";
 import ProgressCard from "../../components/progressCard/ProgressCard";
-import SideBar from "./components/sideBar/SideBar";
+import SideBar from "../../components/sidebar/SideBar";
 import { GoXCircleFill } from "react-icons/go";
 import { MdDoNotDisturbOn } from "react-icons/md";
 import { RiDiscountPercentFill } from "react-icons/ri";
@@ -19,7 +19,7 @@ export default function DashBoard(){
             <div className="stats-container">
                 <StatsCard 
                     title="GPA" 
-                    value="15.50" 
+                    value="0" 
                     description="Out of 20.00"
                     icon={<FaArrowTrendUp size={24} color="#595f60ff"/>}
                     
