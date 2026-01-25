@@ -4,6 +4,7 @@ import { IoBookSharp } from "react-icons/io5";
 import { MdOutlineAdminPanelSettings } from "react-icons/md";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import "./card.css";
 import { useNavigate } from 'react-router-dom'; 
 export default function card(props) {
     const isSignup = props.isSignup || false;

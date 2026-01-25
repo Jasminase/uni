@@ -1,7 +1,7 @@
 import Card from '../../components/homeCard/card';
 export default function HomePage() {
   return (
-    <div>
+    <div className='login'>
       <Card header="Welcome Back"
         postheader="Sign in to your University Companion account"
         button="Login"

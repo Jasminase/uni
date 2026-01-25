@@ -1,10 +1,20 @@
-import "./ProgressCard.css"
-export default function ProgressCard(){
+import "./StatsCard.css";
+
+export default function StatsCard({ title, value, description , icon}) {
     return (
-        <div className="progress-body">
-            <div className="prog-title">course progress</div>
-            <div className="post-title">your performance across enrolled courses</div>
-            <div className="courses" id="c">no courses enrolled.go to courses to enroll</div>
+      <div className="stat-card">
+        <div className="stat-card-header">
+          <div className="icon-title">
+            <h3 className="stat-card-title">{title}</h3>
+            <div className="icon-db"> {icon}</div>
+            
+          </div>
+          
         </div>
-    )
+        <div className="stat-card-content">
+          <div className="stat-card-value">{value}</div>
+          <p className="stat-card-description">{description}</p>
+        </div>
+      </div>
+    );
 }
