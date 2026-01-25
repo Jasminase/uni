@@ -12,7 +12,7 @@ export default function Profile() {
     }
 
   return (
-    <div style={{ display: 'flex' }}>
+    <div style={{ display: 'flex', backgroundColor : "#f8fafc" }}>
       <SideBar />
       <div className="profile-content">
         <h1>Profile</h1>
